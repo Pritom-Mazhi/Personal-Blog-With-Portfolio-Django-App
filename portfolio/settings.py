@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #custom apps
-    #'blog',
+    'blog.apps.BlogConfig',
     'jobs.apps.JobsConfig',
 ]
 
